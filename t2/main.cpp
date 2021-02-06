@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void limits(void); // 输出各种整型所占的字节数，所能表示的最值
+void limits(); // 输出各种整型所占的字节数，所能表示的最值
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     return 0;
 }
 
-void limits(void)
+void limits()
 {
     int n_int = INT_MAX;
     short n_short = SHRT_MAX;
